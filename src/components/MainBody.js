@@ -42,7 +42,8 @@ function MainBody() {
               listing creation form and map
             </li>
             <li>
-              Styled using <b>TailwindCSS</b>
+              Styled using <b>TailwindCSS</b> which is a utility-first CSS
+              framework
             </li>
           </ul>
         </ExperienceItem>
