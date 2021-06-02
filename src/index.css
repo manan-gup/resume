@@ -26,6 +26,10 @@ h6 {
   padding: 0;
 }
 
+body {
+  line-height: 1.6;
+}
+
 h1,
 h2,
 h3,
@@ -34,6 +38,7 @@ h5,
 h6 {
   font-size: 100%;
   font-weight: normal;
+  line-height: 1.2;
 }
 
 ul {
@@ -76,13 +81,31 @@ th {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: var(--color-black-300);
+}
+
 /* Variables */
 :root {
   --font-serif: "Playfair Display", serif;
   --font-sans-serif: "Rubik", sans-serif;
   --color-accent: #26ab7b;
   --color-black-300: #353535;
-  --color-black-700: #606060;
+  /* --color-black-700: #606060; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-serif);
+}
+
+.textAccent {
+  color: var(--color-accent);
 }
 
 .A4-sizing {
@@ -90,24 +113,20 @@ th {
   padding: 0.3in;
   width: 8.5in;
   height: 12in;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   color: var(--color-black-300);
 }
 
-.accent {
-  color: var(--color-accent);
-}
-
-.heading {
-  font-family: var(--font-serif);
-  font-weight: 800;
+.header__heading {
+  font-weight: 700;
   font-size: 4.2rem;
 }
 
-.sub-heading {
+.header__sub-heading {
   font-family: var(--font-sans-serif);
   font-weight: 400;
   font-size: 1.5rem;
+  margin-top: 0.5rem;
 }
 
 .socials {
@@ -116,13 +135,72 @@ th {
   margin: 1rem 0;
 }
 
-.social {
+.socials__item {
   font-family: var(--font-sans-serif);
   font-weight: 400;
-  font-size: 1rem;
 }
 
-.social > span {
+.socials__text {
   padding-left: 0.5rem;
   padding-right: 2rem;
+}
+
+.mainBody {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainBody__experience {
+  min-width: 70%;
+  /* margin-right: 1.5rem; */
+}
+
+.mainBody__sideBar {
+  margin-left: 2rem;
+}
+
+.experience__heading {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.experience__item {
+  margin: 1.5rem 0;
+}
+
+.experience__item__name {
+  font-family: var(--font-sans-serif);
+  font-weight: 700;
+}
+
+.experience__item__name em {
+  font-weight: 400;
+}
+
+.experience__item__list {
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  list-style: inside;
+  font-family: var(--font-sans-serif);
+  font-size: 0.8rem;
+  text-align: justify;
+}
+
+.experience__item__list li {
+  margin-top: 0.5rem;
+}
+
+.experience__item__list li::marker {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 0.75rem;
+  content: "\f054  ";
+}
+
+.experience__item__text {
+  font-family: var(--font-sans-serif);
+  font-size: 0.8rem;
+  text-align: left;
+  margin-top: 0.5rem;
 }
