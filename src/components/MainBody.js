@@ -64,7 +64,14 @@ function MainBody() {
           </ul>
         </ExperienceItem>
         <ExperienceItem>
-          <h3 className="experience__item__name">Resume</h3>
+          <h3 className="experience__item__name">
+            Resume:{" "}
+            <em>
+              <a target="_blank" href="https://manan-gup.github.io/resume">
+                manan-gup.github.io/resume
+              </a>
+            </em>
+          </h3>
           <ul className="experience__item__list">
             <li>
               This resume was made using <b>React.js</b> and <b>CSS</b>
