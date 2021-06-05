@@ -79,6 +79,22 @@ function MainBody() {
             </li>
           </ul>
         </ExperienceItem>
+        <h2 className="experience__heading textAccent">Previous Experience</h2>
+        <ExperienceItem>
+          <ul className="experience__item__list">
+            <li>
+              <b>Senior Research Fellow</b> at Jawaharlal Nehru Centre for
+              Advanced Scientific Research, Bangalore <b>(2015-2019)</b>
+            </li>
+            <li>
+              Produced <b>4 publications</b> pertaining to Computational
+              Ecology, Evolutionary Theory, Philosophy of Evolution, Population
+              Ecology using skills like <b>programming in MATLAB and R</b>,
+              statistical modelling, mathematical modelling, and literature
+              research
+            </li>
+          </ul>
+        </ExperienceItem>
         <h2 className="experience__heading textAccent">
           Research Publications and Media Coverage
         </h2>

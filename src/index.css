@@ -27,7 +27,7 @@ h6 {
 }
 
 body {
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 h1,
@@ -113,7 +113,7 @@ h6 {
   padding: 0.3in;
   width: 8.5in;
   height: 12in;
-  /* border: 1px solid black; */
+  border: 1px solid black;
   color: var(--color-black-300);
 }
 
@@ -159,7 +159,7 @@ h6 {
 }
 
 .mainBody {
-  margin-top: 3rem;
+  margin-top: 1rem;
   display: flex;
   justify-content: space-between;
 }
@@ -179,7 +179,7 @@ h6 {
 }
 
 .experience__item {
-  margin: 1.5rem 0;
+  margin: 1rem 0;
 }
 
 .experience__item__name {
